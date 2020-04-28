@@ -1,0 +1,64 @@
+.shapes {
+  border: 6px solid black;
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.shape {
+  display: inline-block;
+  margin-right: 53px;
+  margin-top: auto;
+}
+
+.rectangle_purple {
+  min-width: 49px;
+  height: 149px;
+  background-color: #7600db;
+}
+
+.rectangle_green {
+  min-width: 399px;
+  height: 199px;
+  background-color: #207c1b;
+}
+
+.circle_blue {
+  min-width: 199px;
+  height: 199px;
+  background-color: #77c4e7;
+  border-radius: 100%;
+}
+
+.shapes-dotted {
+  border-style: dotted;
+  padding: 50px;
+}
+
+.rectangle_yellow {
+  height: 200px;
+  background-color: #fffbc3;
+  box-shadow: 8px 8px 8px black;
+}
+
+.greeting {
+  height: 317px;
+  max-width: 529px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  box-shadow: 4px 3px 3px rgba(0,0,0,.2);
+}
+
+.hello {
+  color: #00006d;
+  font-size: 36px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hello span {
+  display: block;
+}
