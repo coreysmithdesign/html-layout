@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page_header {
+  background-color: #353535;
+  height: 200px;
+}
+
+.page_body {
+  background-color: #cfcfcf;
+  flex: 1;
+}
+
+.content {
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1000px;
+}
+
+.content_footer {
+  background-color: #1a1a1a;
+  height: 100px;
+  margin-top: auto;
+}
