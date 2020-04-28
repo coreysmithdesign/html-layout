@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #cfcfcf;
+  padding: 12px 30px;
+}
+
+.logo {
+  width: 99px;
+  height: 99px;
+  background-color: #3c7bdc;
+}
+
+.lead {
+  display: flex;
+  padding: 68px 30px;
+}
+
+.copy {
+  font-size: 24px;
+  display: inline-block;
+  color: #3a3a3a;
+  margin: 0 auto;
+  max-width: 868px;
+  font-family: sans-serif;
+}
+
+.section {
+  height: 148px;
+}
+
+.section-blue {
+  background-color: #3c7bdc;
+}
+
+.section-aqua {
+  background-color: #47e1b5;
+}
+
+.section-green {
+  background-color: #ace874;
+}
+
+.section-yellow {
+  background-color: #f7e619;
+}
+
